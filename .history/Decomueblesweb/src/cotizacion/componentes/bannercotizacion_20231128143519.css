@@ -1,0 +1,106 @@
+.about-us {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding-top: 3%;
+  }
+  
+  .about-us .div {
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .about-us .overlap-group {
+    height: 174px;
+    left: 966px;
+    position: absolute;
+    top: 341px;
+    width: 388px;
+  }
+  
+  .about-us .algunos-de-nuestros {
+    color: #000000;
+    font-family: "Georama-Medium", Helvetica;
+    font-size: 45px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: flex
+;
+    top: 0;
+    width: 388px;
+  }
+  
+  .about-us .text-wrapper {
+    color: #000000;
+    font-family: "Georama-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 114px;
+    width: 388px;
+  }
+  
+  .about-us .text-wrapper-2 {
+    color: #000000;
+    font-family: "Georama-Medium", Helvetica;
+    font-size: 45px;
+    font-weight: 500;
+    left: 113px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 711px;
+    width: 620px;
+  }
+  
+  .about-us .image {
+    height: 540px;
+    left: 77px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 72px;
+    width: 560px;
+  }
+  
+  .about-us .img {
+    height: 540px;
+    left: 619px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 72px;
+    width: 302px;
+  }
+  
+  .about-us .rectangle {
+    height: 235px;
+    left: 949px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 72px;
+    width: 414px;
+  }
+  
+  .about-us .rectangle-2 {
+    background-color: #f5f5f5;
+    border-radius: 38px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 559px;
+    left: 113px;
+    position: absolute;
+    top: 787px;
+    width: 1220px;
+  }
+

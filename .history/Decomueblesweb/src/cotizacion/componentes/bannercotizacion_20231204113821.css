@@ -1,0 +1,73 @@
+.contenedor {
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 65%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+
+}
+
+.imagenes{
+  max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+  max-height: 100%; /* Asegura que la imagen no sea más alta que el contenedor */
+  object-fit: contain;
+}
+
+.Textopro{
+
+  text-align: start;
+  width: fit-content;
+  size: 15%;
+
+}
+
+.foto1{
+
+
+  width: 60%; /* Establece el ancho del contenedor */
+  height: 100%; /* Establece la altura del contenedor */
+  overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+  display: flex; /* Usa flexbox para centrar la imagen dentro del contenedor */
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center;
+
+}
+
+.foto2 {
+
+  width: 60%; /* Establece el ancho del contenedor */
+  height: 100%; /* Establece la altura del contenedor */
+  overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+  display: flex; /* Usa flexbox para centrar la imagen dentro del contenedor */
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center;
+}
+
+
+.fototexto{
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+} 
+
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; 
+  }
+
+  .Textopro{
+    text-align: center;
+    width: fit-content;
+    size: 10%;
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; 
+  }
+}
+
+

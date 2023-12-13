@@ -1,0 +1,94 @@
+.contenedor {
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+
+}
+
+.imagenes{
+
+
+  width: 100%; /* Asegura que la imagen llene el ancho del contenedor */
+  height: 100%; /* Asegura que la imagen llene la altura del contenedor */
+  object-fit: cover; /* Cubre el área del contenedor, puede recortar la imagen */
+  object-position: center; 
+}
+
+.Textopro{
+
+  text-align: start;
+  width: fit-content;
+  size: 15%;
+
+}
+
+.foto1{
+
+  display: flex;
+  margin: 1%;
+  width: 40%; /* Establece el ancho del contenedor */
+  height: 100%; /* Establece la altura del contenedor */
+  overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+  display: flex; /* Usa flexbox para centrar la imagen dentro del contenedor */
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center;
+
+}
+
+.foto2 {
+  display: flex;
+  width: 35%; /* Establece el ancho del contenedor */
+  height: 100%; /* Establece la altura del contenedor */
+  overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+  display: flex; /* Usa flexbox para centrar la imagen dentro del contenedor */
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center;
+}
+
+
+.fototexto{
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 25%; 
+  margin: 1%; 
+  height: 100%; 
+}
+
+.imagentext {
+  object-fit: cover; 
+  width: 100%;
+  height: 50%; 
+}
+
+.Textopro {
+  display: flex;
+  align-items: start;
+  text-align: start; /* Asegura que el texto dentro del h1 esté centrado */
+}
+
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; 
+  }
+
+  .Textopro{
+    text-align: center;
+    width: fit-content;
+    size: 10%;
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; 
+  }
+}
+
+

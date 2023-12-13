@@ -1,0 +1,64 @@
+.contenedor {
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+
+}
+
+.Textopro{
+
+  text-align: start;
+  width: fit-content;
+  size: 15%;
+
+}
+
+.foto1{
+
+  width: 60%; 
+  margin: 1%; 
+  height: 100px; 
+
+}
+
+.foto2 {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fama.es%2Finicio-es&psig=AOvVaw1O42-XzqXvbUMFOFUWdByz&ust=1701795531744000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiuqcOg9oIDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 32%; 
+    margin: 1%; 
+    height: 100px; 
+}
+
+
+
+
+.fototexto{
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+} 
+
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; 
+  }
+
+  .Textopro{
+    text-align: center;
+    width: fit-content;
+    size: 10%;
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; 
+  }
+}
+
+

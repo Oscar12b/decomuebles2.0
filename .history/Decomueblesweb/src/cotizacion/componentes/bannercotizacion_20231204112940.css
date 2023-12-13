@@ -1,0 +1,48 @@
+.contenedor {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+
+}
+
+.imagenes {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 1;
+}
+
+.Textopro {
+  text-align: start;
+  width: fit-content;
+  font-size: 15%; 
+}
+
+.foto1, .foto2, .fototexto {
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+} 
+
+/*.foto1, .foto2, .fototexto {
+  flex-shrink: 1; Permite que los elementos se encojan si es necesario } */
+
+
+@media (max-width: 600px) {
+  .foto2 { 
+    display: none; 
+  }
+
+  .Textopro {
+    text-align: center;
+    font-size: 10%; 
+  }
+  
+  .foto1, .fototexto { 
+    width: 49%; 
+  }
+}

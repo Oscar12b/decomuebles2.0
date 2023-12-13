@@ -1,0 +1,40 @@
+.contenedor {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+}
+
+.imagenes {
+  display: inline-block;
+}
+
+.Textopro {
+  text-align: start;
+  width: fit-content;
+  font-size: 15%; /* Corregido de 'size' a 'font-size' */
+}
+
+.foto1, .foto2, .fototexto {
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+} 
+
+@media (max-width: 600px) {
+  .foto2 { /* Corregido de '.div-2' a '.foto2' */
+    display: none; 
+  }
+
+  .Textopro {
+    text-align: center;
+    font-size: 10%; /* Corregido de 'size' a 'font-size' */
+  }
+  
+  .foto1, .fototexto { /* Corregido para que coincida con los nombres de clase */
+    width: 49%; 
+  }
+}

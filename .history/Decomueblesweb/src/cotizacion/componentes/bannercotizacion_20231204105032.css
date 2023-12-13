@@ -1,0 +1,48 @@
+.contenedor {
+
+  margin-top: 10%;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Textopro{
+
+  text-align: start;
+  width: fit-content;
+  size: 15%;
+
+}
+
+.foto1, .foto2{
+
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+
+}
+
+.fototexto{
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+} 
+
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; 
+  }
+
+  .Textopro{
+    text-align: center;
+    width: fit-content;
+    size: 10%;
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; 
+  }
+}
+
+

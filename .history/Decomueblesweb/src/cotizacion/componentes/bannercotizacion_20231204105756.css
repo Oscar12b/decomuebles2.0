@@ -1,0 +1,60 @@
+.contenedor {
+
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+
+}
+
+.Textopro{
+
+  text-align: start;
+  width: fit-content;
+  size: 15%;
+
+}
+
+
+
+  .foto2 {
+    background-image: url('./sofa 2.png');
+    width: 32%; 
+    margin: 1%; 
+    height: 100px; 
+  }
+
+
+.foto1{
+
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+
+}
+
+.fototexto{
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+} 
+
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; 
+  }
+
+  .Textopro{
+    text-align: center;
+    width: fit-content;
+    size: 10%;
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; 
+  }
+}
+
+

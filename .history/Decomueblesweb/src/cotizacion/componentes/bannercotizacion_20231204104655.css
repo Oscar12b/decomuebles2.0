@@ -1,0 +1,25 @@
+.contenedor {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.foto1, .foto2, .fototexto {
+  width: 32%; 
+  margin: 1%; 
+  height: 100px; 
+  background-color: #00BFFF; 
+}
+
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; 
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; 
+  }
+}
+
+

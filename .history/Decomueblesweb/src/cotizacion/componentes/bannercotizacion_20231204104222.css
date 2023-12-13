@@ -1,0 +1,25 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1, .div-2, .div-3 {
+  width: 32%; /* Ajusta el ancho para que se adapte a tu diseño */
+  margin: 1%; /* Ajusta el margen para que se adapte a tu diseño */
+  height: 100px; /* Ajusta la altura para que se adapte a tu diseño */
+  background-color: #00BFFF; /* Color de fondo para los divs */
+  border: 2px solid #000; /* Borde para los divs */
+}
+
+/* Consultas de medios para ajustes de responsividad */
+@media (max-width: 600px) {
+  .div-2 {
+    display: none; /* Oculta el div del medio en pantallas pequeñas */
+  }
+  
+  .div-1, .div-3 {
+    width: 49%; /* Ajusta el ancho para que ocupe la mitad del contenedor */
+  }
+}
+
+

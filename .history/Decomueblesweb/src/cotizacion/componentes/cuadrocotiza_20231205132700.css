@@ -1,0 +1,4 @@
+.contenrdor{
+  width: 50vh;
+  flex-direction: column-reverse;
+}
